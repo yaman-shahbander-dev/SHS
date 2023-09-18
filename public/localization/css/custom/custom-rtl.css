@@ -1,0 +1,279 @@
+/*
+	  ==============================================================
+		 DEFAULT HEADINGS CSS START
+	  ==============================================================
+*/
+
+/*main page section*/
+.kf_edu2_heading1{
+    float: right;
+    text-align: right;
+    margin:-7px 0 30px 0;
+}
+
+.kf_edu2_heading1 h3:before{
+    content: "";
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 25px;
+    background-color: #666666;
+    position: absolute;
+}
+.kf_edu2_heading1 h3:after{
+    right: 35px;
+}
+/*heading 2*/
+.kf_edu2_heading2{
+    float: right;
+    /*width: 100%;*/
+    /*text-align: center;*/
+    margin:-8px 0 40px 0;
+}
+
+.kf_edu2_heading2 h3:before {
+    background-color: #666666;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    left: 49px;
+    width: 25px;
+}
+.kf_edu2_heading2 h3:after {
+    right: 49px;
+    left: 0;
+}
+
+/*
+	  ==============================================================
+
+
+/*OUR OURSES SECTION START*/
+.kf_edu2_tab_wrap{
+    float: right;
+    /*width: 100%;*/
+}
+.kf_edu2_tab_wrap .nav-tabs{
+    /*border:none;*/
+    float: right;
+}
+.kf_edu2_tab_wrap .nav-tabs li{
+    margin: 0px 23px 0px 0px;
+}
+
+.kf_edu2_tab_des{
+    float: right;
+}
+.edu2_cur_wrap{
+    float: right;
+}
+
+.edu2_cur_des_ft,
+.edu2_cur_des{
+    float: right;
+}
+
+.edu2_cur_des > span {
+    left: 15px;
+}
+
+.edu2_cur_des > strong {
+    float: right;
+}
+
+.edu2_cur_des_ft{
+    float: right;
+}
+
+/*OUR OURSES SECTION END*/
+
+/*
+additional css classes
+ */
+#header_2 .login_wrap, #header_2 .top_nav, #header_2 .lng_wrap {
+    float: left;
+}
+.filterable-item.col-md-3 {
+    width: 25% !important;
+    padding: 0px;
+}
+
+.nav_2 ul ul li {
+    text-align: right;
+}
+
+/* widget css */
+.widget{
+    float: right;
+    width: 100%;
+}
+footer .widget h5{
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 0 30px;
+}
+.widget-links ul{
+    float: right;
+    width: 100%;
+    margin: -4px 0 0 0;
+}
+.widget-links ul li{
+    float: right;
+    width: 100%;
+    text-align: right;
+    font-size: 16px;
+    font-weight: normal;
+    color: #f9f9f9;
+    text-transform: capitalize;
+}
+.widget-links ul li a:after{
+    content: "\f104";
+    position: absolute;
+    right: -10px;
+    top: 5px;
+    font-family: FontAwesome;
+}
+.widget-links ul li a:hover:after{
+    right: -5px;
+}
+.widget-links ul li a:before{
+    content: "";
+}
+
+.wiget-instagram ul{
+    float: right;
+    width: 100%;
+    padding-top:6px;
+    margin-bottom:-10px;
+}
+.wiget-instagram ul li {
+    float: right;
+    margin: 0 10px 10px 0 !important;
+    width: 72px;
+    padding: 0px;
+    background-color: #000;
+}
+.wiget-instagram ul li:hover a{
+    padding: 0px;
+}
+.wiget-instagram ul li img{
+    transition:all 0.3s ease-in-out;
+
+}
+.wiget-instagram ul li:hover img{
+    opacity: 0.5;
+}
+
+.edu2_ft_topbar_des h5{
+    text-align: right;
+}
+
+.lng_wrap button i{
+    margin-left: 5px;
+}
+
+.nav_2 ul ul{
+    right:0;
+}
+
+.kf_cur_catg_des > span{
+    float:right;
+}
+
+.kf_cur_catg_capstion h5{
+    text-align:right;
+}
+
+.kf_cur_catg_capstion{
+    text-align: right;
+    padding-right: 23px;
+}
+
+/*end main page section*/
+
+/*contact us section*/
+
+.contact_2_headung{
+    text-align: right;
+}
+
+.contact_meta{
+    float:right;
+}
+
+.contact_meta li{
+    float:right;
+    text-align: right;
+}
+
+.cont_socil_meta{
+    float:right;
+}
+.cont_socil_meta li{
+    float:right;
+}
+
+.inr_banner_heading {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.kf_inr_breadcrumb {
+    float: left;
+    text-align: left;
+}
+
+.kf_inr_breadcrumb ul li::before{
+    content:"\f104";
+}
+
+
+.location_meta li {
+    float: right;
+    text-align: right;
+}
+
+/*.kf_inr_breadcrumb ul li::after{*/
+    /*!*content:"\f104";*!*/
+/*}*/
+
+/*end contact page section*/
+
+/* news details section */
+.kf_convocation_wrap {
+    float: right;
+    text-align: right;
+}
+.convocation_timing li {
+    float: right;
+}
+.convocation_timing li i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.heading_5 {
+    float: right;
+    text-align: right;
+}
+.widget-recent-posts span i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+/* teacher section */
+.teacher_bio_logo {
+    float: right;
+}
+.teacher_bio_logo span {
+    float: right;
+}
+.teacher_bio_des ul li {
+    float: right;
+}
+.teacher_bio_des ul li i {
+    margin-left: 8px;
+}

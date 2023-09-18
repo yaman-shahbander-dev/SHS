@@ -1,0 +1,4 @@
+[27-Sep-2020 12:13:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/adminuser/public_html/karshah.ae/app/Exceptions/Handler.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/app/Exceptions/Handler.php on line 11

@@ -1,0 +1,23 @@
+{
+  "sProcessing": "...جاري المعالجة",
+  "sLengthMenu": "عرض بيانات القائمة",
+  "sZeroRecords": "لا يوجد بيانات مطابقة",
+  "sInfo": "عرض كامل البيانات من البداية إلى النهاية",
+  "sInfoEmpty": "عرض 0 من 0 في 0 مدخلات",
+  "sInfoFiltered": " (تم فلترة البيانات)",
+  "sInfoPostFix": "",
+  "sSearch": ":بحث",
+  "sEmptyTable": "لا يوجد بيانات متوفرة في الجدول",
+  "sInfoThousands": ".",
+  "sLoadingRecords": "...جاري تحميل البيانات",
+  "oPaginate": {
+    "sFirst": "الأول",
+    "sLast": "الأخير",
+    "sNext": "التالي",
+    "sPrevious": "السابق"
+  },
+  "oAria": {
+    "sSortAscending":  ": activate to sort column ascending",
+    "sSortDescending": ": activate to sort column descending"
+  }
+}

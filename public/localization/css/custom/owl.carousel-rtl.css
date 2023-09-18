@@ -1,0 +1,23 @@
+.owl-carousel .owl-theme{
+    opacity: 1;
+    display: -webkit-box;
+    float: right;
+    padding-top: 0px;
+}
+
+.owl-wrapper-outer{
+    padding-top: 0px;
+}
+
+.owl-wrapper{
+    width: 100%;
+    left: 0px;
+    display: -webkit-inline-box;
+    transition: all 800ms ease;
+    transform: translate3d(-2698px, 0px, 0px);
+}
+
+.owl-item{
+    width:100%;
+    padding-top: -5px;
+}

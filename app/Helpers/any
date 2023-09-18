@@ -1,0 +1,401 @@
+INSERT INTO categories (id, name, description, created_at, updated_at, name_en, name_ar, description_en, description_ar) VALUES
+(63, 'Animals and Plants', 'Animals and Plants', '2020-12-09 15:44:13', '2021-02-09 13:13:34', 'Animals and Plants', '', 'Animals and Plants', ''),
+(64, 'Legal Services', 'Legal Services', '2020-12-09 15:44:13', '2021-02-09 13:47:20', 'Legal Services', '', 'Legal Services', ''),
+(65, 'Sandwiches', 'Quis ex molestias ut doloribus dolorem corporis. Et corporis excepturi aut minima iusto. Quia ut animi vero. Iste ratione et aut. Molestiae id quis id sed ea eos.', '2020-12-09 15:44:13', '2020-12-09 15:44:13', '', '', '', ''),
+(66, 'Individual Care giving', 'Individual Care giving', '2020-12-09 15:44:13', '2021-02-09 13:42:33', 'Individual Care giving', '', 'Individual Care giving', ''),
+(67, 'Sandwiches', 'Eveniet culpa placeat perferendis quas voluptatem a qui. Quasi accusamus consequatur adipisci commodi tenetur vel. Placeat ipsa inventore minus maiores est rerum. Dignissimos aperiam laudantium cupiditate consequatur. Aut officia et nostrum officia ratione qui.', '2020-12-09 15:44:13', '2020-12-09 15:44:13', '', '', '', ''),
+(68, 'Protein', 'Saepe ratione id quidem dignissimos accusantium. Qui qui id illum porro. Autem id earum dolorem id facere. Non omnis a perspiciatis et sint vel autem. Distinctio doloribus modi ullam aut perspiciatis laborum minus.', '2020-12-09 15:44:13', '2020-12-09 15:44:13', '', '', '', ''),
+(69, 'Teaching and Training', 'Teaching and Training', '2020-12-11 19:32:16', '2021-02-09 13:18:40', 'Teaching and Training', '', 'Teaching and Training', ''),
+(70, 'Halao', 'kjbj', '2020-12-12 02:22:06', '2020-12-12 02:22:06', '', '', '', ''),
+(71, 'Halao', 'slkfs', '2020-12-12 02:23:21', '2020-12-12 02:23:21', '', '', '', ''),
+(73, 'Cosmetics and Beauty', 'Cosmetics and Beauty', '2020-12-12 02:25:09', '2021-02-09 13:29:22', 'Cosmetics and Beauty', '', 'Cosmetics and Beauty', ''),
+(74, 'Medical and Well being', 'Medical and Well being', '2020-12-12 02:27:59', '2021-02-09 13:26:31', 'Medical and Well being', '', 'Medical and Well being', ''),
+(75, 'Delivery and Transport', 'Delivery and Transport', '2020-12-12 02:28:11', '2021-02-09 13:24:34', 'Delivery and Transport', '', 'Delivery and Transport', ''),
+(76, 'Food and Parties', 'Food and Parties', '2020-12-12 02:28:16', '2021-02-09 13:16:37', 'Food and Parties', '', 'Food and Parties', ''),
+(79, 'Safety and Protection', 'Safety and Protection', '2020-12-12 02:29:30', '2021-02-09 13:15:18', 'Safety and Protection', '', 'Safety and Protection', '');
+
+
+INSERT INTO balances (id, balance, created_at, updated_at) VALUES
+(1, '100.0000000', NULL, NULL),
+(2, '200.0000000', NULL, NULL),
+(3, '150.0000000', '2021-02-03 01:30:28', '2021-02-03 01:30:28'),
+(4, '500.0000000', '2021-02-03 01:30:48', '2021-02-03 01:30:48'),
+(5, '300.0000000', '2021-02-03 01:30:48', '2021-02-03 01:30:48'),
+(6, '299.0000000', '2021-02-03 01:30:48', '2021-02-03 01:30:48');
+
+INSERT INTO countries (id, country_name, created_at, updated_at, name_en) VALUES
+(2, 'syria', '2020-12-16 15:59:52', '2020-12-16 15:59:52', ''),
+(3, 'iraq', '2020-12-16 15:59:52', '2020-12-16 15:59:52', ''),
+(4, 'lebanon', '2021-01-17 10:54:15', '2021-01-17 10:54:15', ''),
+(5, 'الامارات العربية المتحدة', '2021-02-03 01:45:01', '2021-02-03 01:45:01', 'UAE');
+
+INSERT INTO cities (id, city_name, country_id, created_at, updated_at, name_en) VALUES
+(4, 'aleppo', 2, '2020-12-16 16:03:23', '2020-12-16 16:03:23', ''),
+(5, 'damascus', 2, '2021-01-17 10:54:37', '2021-01-17 10:54:37', ''),
+(6, 'Beirut', 4, '2021-01-17 10:54:37', '2021-01-17 10:54:37', ''),
+(7, 'Baghdad', 3, '2021-01-17 10:54:37', '2021-01-17 10:54:37', '');
+
+
+INSERT INTO custom_fields (id, name, type, values, disabled, required, in_table, bootstrap_column, order, custom_field_model, created_at, updated_at) VALUES
+(4, 'phone', 'text', NULL, 0, 0, 0, 6, 2, 'App\\Models\\User', '2019-09-06 18:30:00', '2019-09-06 18:31:47'),
+(5, 'bio', 'textarea', NULL, 0, 0, 0, 6, 1, 'App\\Models\\User', '2019-09-06 18:43:58', '2019-09-06 18:43:58'),
+(6, 'address', 'text', NULL, 0, 0, 0, 6, 3, 'App\\Models\\User', '2019-09-06 18:49:22', '2019-09-06 18:49:22');
+
+
+
+INSERT INTO days (id, name_en, name_ar, created_at, updated_at) VALUES
+(1, 'Sunday', 'الأحد', NULL, NULL),
+(2, 'Monday', 'الأثنين', NULL, NULL),
+(3, 'Tuesday', 'الثلاثاء', NULL, NULL),
+(4, 'Wednesday', 'الأربعاء', NULL, NULL),
+(5, 'Thursday', 'الخميس', NULL, NULL),
+(6, 'Friday', 'الجمعة', NULL, NULL),
+(7, 'Saturday', 'السبت', NULL, NULL);
+
+
+
+INSERT INTO delegates (id, name, phone, created_at, updated_at) VALUES
+(1, 'jhb', '554', NULL, NULL),
+(2, 'user', '0955555555', '2021-01-30 14:51:57', '2021-01-30 14:51:57'),
+(3, 'adel test', '00971557302126', '2021-02-02 01:01:44', '2021-02-02 01:01:44'),
+(4, 'فلافل', '00971557302126' , '2021-02-03 00:52:05', '2021-02-03 00:52:05');
+
+
+INSERT INTO statuses (id, status_type, created_at, updated_at) VALUES
+(1, 'Online', NULL, NULL),
+(2, 'Busy', NULL, NULL);
+
+
+
+INSERT INTO sub_categories (id, name, description, category_id, created_at, updated_at, name_en, name_ar, description_en, description_ar) VALUES
+(1, 'lawer', 'lawer', 64, '2020-12-10 19:07:47', '2021-02-09 20:46:27', 'lawer', '', '', ''),
+(2, 'second', 'second', 66, '2020-12-11 19:04:27', '2021-02-09 20:44:30', 'second', '', '', ''),
+(3, 'books', 'books', 69, '2020-12-12 04:34:07', '2021-02-09 20:17:59', 'books', '', '', ''),
+(4, 'FOLDAMORTE', 'FOLDAMORTE', 71, '2020-12-12 04:36:26', '2021-02-09 20:47:10', 'FOLDAMORTE', '', '', ''),
+(5, 'Massage', 'Massage', 66, '2020-12-12 05:42:28', '2021-02-09 20:45:17', 'Massage', '', '', ''),
+(6, 'testing sub', 'testing sub', 70, '2020-12-12 05:42:54', '2021-02-09 20:43:11', 'testing sub', '', '', ''),
+(7, 'cat food', 'cat food', 63, '2020-12-12 05:43:13', '2021-02-09 20:41:23', 'cat food', '', '', ''),
+(9, 'Pizza', 'Pizza', 76, '2020-12-12 06:02:05', '2021-02-09 20:44:51', 'Pizza', '', '', ''),
+(10, 'law', 'law', 64, '2020-12-12 06:06:48', '2021-02-09 20:46:46', 'law', '', '', ''),
+(11, 'teacher', 'teacher', 69, '2020-12-12 06:07:30', '2021-02-09 20:43:31', 'teacher', '', '', ''),
+(12, 'birds food', 'birds food', 63, '2020-12-12 17:11:41', '2021-02-09 20:48:12', 'birds food', '', '', ''),
+(14, 'dog care', 'dog care', 63, '2020-12-31 11:35:41', '2021-02-09 20:47:32', 'jhbh', '', '', '');
+
+
+
+
+INSERT INTO uploads (id, uuid, created_at, updated_at) VALUES
+(1, 'dada2ab3-6f71-4126-b43e-b9ccb9aa5abb', '2020-09-24 12:12:01', '2020-09-24 12:12:01'),
+(2, 'dd6f9294-1c74-4ea8-9500-ba6af28cae6d', '2020-09-24 12:17:35', '2020-09-24 12:17:35'),
+(3, '81ce8e3f-8fe1-4e8c-a115-4ec0ea45f2ae', '2020-09-24 12:17:59', '2020-09-24 12:17:59'),
+(4, 'a777d2a5-8c4b-4030-888d-b870a87a435e', '2020-09-24 12:18:54', '2020-09-24 12:18:54'),
+(5, '03410f37-92b7-4c97-906c-2f00d355360e', '2020-09-24 12:21:10', '2020-09-24 12:21:10'),
+(6, '00fb679d-7911-43a0-b168-82497ded87f5', '2020-09-24 12:22:46', '2020-09-24 12:22:46'),
+(7, 'c16d9f62-c49f-4a2f-8907-252a31924fb4', '2020-09-24 12:23:16', '2020-09-24 12:23:16'),
+(8, 'fbbf48db-c101-441c-9e49-46fd1d57c602', '2020-09-24 12:24:03', '2020-09-24 12:24:03'),
+(9, '2becbc98-e029-47b4-9abb-cb4b31f66e1a', '2020-09-24 12:35:07', '2020-09-24 12:35:07'),
+(10, '447d6f38-2d21-4978-bd94-dca3e420e9f3', '2020-09-24 12:35:22', '2020-09-24 12:35:22'),
+(11, 'ffb52da0-11b1-41b2-a23f-c31d313e1973', '2020-09-24 13:13:24', '2020-09-24 13:13:24'),
+(12, '60b28c82-5cd2-4b24-ad83-effce16a67d9', '2020-09-25 21:11:20', '2020-09-25 21:11:20'),
+(13, 'bf020a39-7065-42bf-a92f-01858a9fe598', '2020-09-25 21:14:03', '2020-09-25 21:14:03'),
+(14, '0880117e-a660-4bda-b9eb-4b4bab4dd6b2', '2020-09-25 21:16:38', '2020-09-25 21:16:38'),
+(15, '82d129e5-c48c-4648-992f-5f871aca9550', '2020-09-25 21:18:13', '2020-09-25 21:18:13'),
+(16, 'd535ec20-41f6-4df8-8823-8c783a827f6f', '2020-09-25 21:19:34', '2020-09-25 21:19:34'),
+(17, '4ea99371-1b1c-46bc-b09d-b7979b4260d6', '2020-09-25 21:20:06', '2020-09-25 21:20:06'),
+(18, '99191792-2c53-4bf1-ab0e-0b6d4d05fe62', '2020-09-25 21:21:50', '2020-09-25 21:21:50'),
+(19, 'e9f79cb5-f841-4ad5-8aa7-c01c7a1dffd9', '2020-09-25 21:33:03', '2020-09-25 21:33:03'),
+(20, '7e60590a-8460-430f-aae6-1714a980ac1c', '2020-09-25 21:37:05', '2020-09-25 21:37:05'),
+(21, '300a4022-3df5-469e-ab2a-f777969e9087', '2020-09-25 21:43:06', '2020-09-25 21:43:06'),
+(22, '6c19487e-1e3a-41b7-9df1-d80fe77faace', '2020-09-25 21:51:29', '2020-09-25 21:51:29'),
+(23, '40289738-9a82-4bb6-9761-7564093de01a', '2020-09-25 21:53:44', '2020-09-25 21:53:44'),
+(24, '99083aeb-285c-48be-a9e3-20c4d4adebcc', '2020-09-25 21:55:38', '2020-09-25 21:55:38'),
+(25, '0502f379-f453-45b9-b8c2-fd5eaf074141', '2020-09-25 22:03:31', '2020-09-25 22:03:31'),
+(26, 'ed6ae4ed-37b0-40b6-a2dc-f30d3360cc44', '2020-09-25 22:05:23', '2020-09-25 22:05:23'),
+(27, '58535e74-76fc-4237-bc84-da69f1b3c188', '2020-09-25 22:08:44', '2020-09-25 22:08:44'),
+(28, '08cfaadd-4efe-465c-b27a-f0498b7893c2', '2020-09-25 22:09:27', '2020-09-25 22:09:27'),
+(29, 'ef02c534-8ba3-444e-ab9c-a46e2849031b', '2020-09-25 22:10:03', '2020-09-25 22:10:03'),
+(30, 'e138acc6-2701-4933-8317-a5fd50798257', '2020-09-28 11:07:35', '2020-09-28 11:07:35'),
+(31, '19902c3f-f47b-4462-99b5-79dfaaf9d3b8', '2020-10-06 11:39:52', '2020-10-06 11:39:52'),
+(32, 'f97a24c6-7ca0-436c-9d23-4a63430f5ef1', '2020-10-07 05:24:23', '2020-10-07 05:24:23'),
+(33, 'a5946c37-1a3c-421f-89c2-f04a18075eb8', '2020-10-14 10:34:08', '2020-10-14 10:34:08'),
+(34, '862e779e-4062-40a8-bcfe-2d83132380eb', '2020-10-14 10:34:21', '2020-10-14 10:34:21'),
+(35, 'd7c35768-44d7-45c0-b324-ced317b75e06', '2020-10-19 12:35:04', '2020-10-19 12:35:04'),
+(36, 'd4013df1-13a1-4a84-8569-7a399310578f', '2020-10-19 12:41:08', '2020-10-19 12:41:08'),
+(37, '1901bd4c-5636-41b9-9e7e-c751caa776eb', '2020-10-19 12:43:00', '2020-10-19 12:43:00'),
+(38, 'a6bdf128-d269-4347-9aed-c7c632f0f9b6', '2020-10-20 19:11:01', '2020-10-20 19:11:01'),
+(39, 'f90bac32-80c3-4473-8b17-6ad2346d0d17', '2020-10-20 19:11:45', '2020-10-20 19:11:45'),
+(40, '0a175b04-6c17-4be6-826b-b8373c5980a3', '2020-11-05 12:27:58', '2020-11-05 12:27:58'),
+(41, '74d3565c-09c8-45a6-ad3c-e08ce376dfb5', '2020-11-05 12:29:16', '2020-11-05 12:29:16'),
+(42, 'e88bb322-e29f-44be-840c-ecd36e1c84c3', '2020-11-05 12:30:23', '2020-11-05 12:30:23'),
+(43, '496621a0-a517-4f0d-8c49-6b7ee3fd75dc', '2020-11-05 12:31:35', '2020-11-05 12:31:35'),
+(44, '5af98755-8080-462d-aa59-a3f9ef95df80', '2020-11-08 07:08:19', '2020-11-08 07:08:19'),
+(47, 'a565b7f2-456f-43c9-88ed-62074f37a6f5', '2020-11-08 07:34:55', '2020-11-08 07:34:55'),
+(48, 'c68bea26-074d-4f71-b166-7772934cf9c8', '2020-11-08 07:35:39', '2020-11-08 07:35:39'),
+(49, 'ce1f2c27-6676-41df-b27d-c8432333dd70', '2020-11-08 07:35:53', '2020-11-08 07:35:53'),
+(50, 'ada8f49a-fe0d-4274-8b67-94679019721e', '2020-11-08 07:37:00', '2020-11-08 07:37:00'),
+(51, 'e609b4b5-0fbb-4358-a79f-c953d0c19be8', '2020-11-08 07:41:02', '2020-11-08 07:41:02'),
+(52, '02808eb6-9755-4e8b-80bd-0e816ab99083', '2020-11-08 07:42:05', '2020-11-08 07:42:05'),
+(53, 'e3c27791-9a64-4fa4-8a0b-df37ac760de4', '2020-11-08 07:49:36', '2020-11-08 07:49:36'),
+(54, '1b0f8c94-2349-438b-873a-f6e94ea6e2d3', '2020-11-08 07:52:21', '2020-11-08 07:52:21'),
+(57, '5eebeb77-0ab7-4906-8994-f68e323a1509', '2020-11-08 08:00:17', '2020-11-08 08:00:17'),
+(58, '090da081-94c4-4ba9-982c-d148bbdb3e95', '2020-11-08 08:03:36', '2020-11-08 08:03:36'),
+(59, '57d017d7-182a-4c5b-a5fc-5459a7da4006', '2020-11-09 13:31:18', '2020-11-09 13:31:18'),
+(60, '8025ab00-380b-475b-8bbf-f22e76eec94d', '2020-11-11 10:54:51', '2020-11-11 10:54:51'),
+(61, '5630beb0-2664-4920-afe6-0195067745a2', '2020-11-11 10:55:01', '2020-11-11 10:55:01'),
+(62, 'af83128e-65d3-4a7b-9c09-9b7121fb437f', '2020-11-11 10:55:12', '2020-11-11 10:55:12'),
+(63, '34eaddba-d226-4ec2-9aad-3e9197a11a19', '2020-11-11 10:55:33', '2020-11-11 10:55:33'),
+(64, '9a68d7e3-cef9-4d8c-9fe4-0df51d104cef', '2020-11-11 10:56:16', '2020-11-11 10:56:16'),
+(65, '3cbc49b3-7a6d-4c0c-94f6-2f82cf07bc3f', '2020-12-11 14:53:36', '2020-12-11 14:53:36'),
+(66, '4bdbca80-f028-4a44-a0c0-1e87b3e8a9fe', '2020-12-11 14:53:51', '2020-12-11 14:53:51'),
+(67, 'cd933878-8513-4e76-8c5c-b18dce66f301', '2020-12-11 14:54:10', '2020-12-11 14:54:10'),
+(68, 'fe41b52c-1d5e-4ed8-a6fc-078bad7b348c', '2020-12-11 14:57:32', '2020-12-11 14:57:32'),
+(69, '592d51e6-1000-4cde-a8c4-8dcc0f5d81af', '2020-12-11 16:11:51', '2020-12-11 16:11:51'),
+(70, '77f23ebc-818a-46c4-9e85-e46e96a4be52', '2020-12-11 16:16:20', '2020-12-11 16:16:20'),
+(71, 'e51f4089-3e96-472b-9f58-f346436ea3fd', '2020-12-11 16:16:58', '2020-12-11 16:16:58'),
+(72, 'a391cd45-a707-474e-88d2-79d20b395a8b', '2020-12-11 16:18:58', '2020-12-11 16:18:58'),
+(73, '16dd072b-7015-4177-a047-43062da765cf', '2020-12-11 16:19:27', '2020-12-11 16:19:27'),
+(74, '75725c23-7544-445c-9a0b-e94bf7a4f3d2', '2020-12-11 16:24:36', '2020-12-11 16:24:36'),
+(75, '5084ad12-ca06-45d8-ae9c-27bbadc370e9', '2020-12-11 19:32:10', '2020-12-11 19:32:10'),
+(76, 'a83175f5-d5a4-40e9-b445-1f5866de12d1', '2020-12-12 02:22:03', '2020-12-12 02:22:03'),
+(77, 'dcce2f83-f13b-4b6c-b2dc-06161118f973', '2020-12-12 02:28:47', '2020-12-12 02:28:47'),
+(78, 'bde7c81c-5955-4450-b811-c4003d5888e8', '2020-12-12 02:29:23', '2020-12-12 02:29:23'),
+(79, '6f067975-5866-4ac4-8dc5-6b5ee8fd8fab', '2020-12-12 02:41:56', '2020-12-12 02:41:56'),
+(80, 'dcc84d3b-08de-4e9b-b24d-dbae6a68175d', '2020-12-12 02:54:04', '2020-12-12 02:54:04'),
+(81, 'ee5afb10-45ee-4a2f-b962-d744c2620bb9', '2020-12-12 02:55:03', '2020-12-12 02:55:03'),
+(82, '87418ffb-beb0-4bcb-9a29-cdcb946ff687', '2020-12-12 03:04:58', '2020-12-12 03:04:58'),
+(83, '1453f8e1-b958-4ed5-811a-c0e60a3b579b', '2020-12-12 03:07:00', '2020-12-12 03:07:00'),
+(84, 'e0f6950c-ebf6-4c0d-b3be-ce6a41c373d2', '2020-12-12 03:17:09', '2020-12-12 03:17:09'),
+(85, '084a07fb-3768-462b-9430-39a94bdec5bf', '2020-12-12 03:18:26', '2020-12-12 03:18:26'),
+(86, '3763c0be-84f4-4838-ba9d-e83f027062a2', '2020-12-12 03:22:17', '2020-12-12 03:22:17'),
+(87, '7f50265f-873c-4ccb-8afd-07a899239d90', '2020-12-12 03:27:12', '2020-12-12 03:27:12'),
+(88, '39a059dd-696a-4da6-af0e-8e7c94d568a6', '2020-12-12 04:00:00', '2020-12-12 04:00:00'),
+(89, 'e2a90640-7dbf-4c36-b104-27ecf466afb1', '2020-12-12 04:33:54', '2020-12-12 04:33:54'),
+(90, '001733af-dd1f-4013-9d4a-073198079dfb', '2020-12-12 04:36:18', '2020-12-12 04:36:18'),
+(91, 'cd5494e4-c80e-40ea-9baf-e84f5ed73cb8', '2020-12-12 05:43:11', '2020-12-12 05:43:11'),
+(92, '2a95211a-3e81-4b82-acae-a9f97b9600dd', '2020-12-12 05:44:08', '2020-12-12 05:44:08'),
+(93, '21f92198-aeb5-4c29-a125-bf5051f490eb', '2020-12-12 05:44:31', '2020-12-12 05:44:31'),
+(94, '4a155ad7-07de-4d0e-98a8-d310bcd1c877', '2020-12-12 06:09:04', '2020-12-12 06:09:04'),
+(95, '320b349d-9773-4e48-bd1e-abaeb4662b97', '2020-12-12 06:09:26', '2020-12-12 06:09:26'),
+(96, 'c23ea009-b3d6-4a61-948f-d14101637162', '2020-12-12 06:09:34', '2020-12-12 06:09:34'),
+(97, '072320ed-e8bc-43a2-bca0-a133760a9043', '2020-12-12 06:09:57', '2020-12-12 06:09:57'),
+(98, '53b226e9-8728-4155-9d98-0cdfa7f8c330', '2020-12-12 06:10:12', '2020-12-12 06:10:12'),
+(99, '8f163557-a21f-4553-8eec-5f98f51cac30', '2020-12-12 06:17:52', '2020-12-12 06:17:52'),
+(100, 'b43b1aae-9677-4b3f-a3b8-33014687a0e3', '2020-12-12 06:18:10', '2020-12-12 06:18:10'),
+(101, '304de2cf-bc38-4a34-8c3b-836eef9bc68b', '2020-12-12 06:26:20', '2020-12-12 06:26:20'),
+(102, 'b5a51388-d026-479a-88ed-82d51a89a9a1', '2020-12-12 06:27:47', '2020-12-12 06:27:47'),
+(103, '04c6708a-ed52-4868-b188-d510fe30dc3b', '2020-12-12 06:28:03', '2020-12-12 06:28:03'),
+(104, '9d8a1f5d-9e2b-482f-8c83-d7834b5da990', '2020-12-12 06:28:33', '2020-12-12 06:28:33'),
+(105, '560f7c16-e46c-438f-b1aa-61097abbcae0', '2020-12-12 06:29:23', '2020-12-12 06:29:23'),
+(106, '73ad14fd-0bb8-4f36-a4da-20a24b6bde70', '2020-12-12 06:30:16', '2020-12-12 06:30:16'),
+(107, '81e9080d-b423-41fc-9afb-0c36031e404a', '2020-12-12 06:34:24', '2020-12-12 06:34:24'),
+(108, '0c578e5e-a8a7-41ab-97e1-0d925f27cafb', '2020-12-12 06:34:41', '2020-12-12 06:34:41'),
+(109, '4186a7b7-a4d0-4cee-9275-ef66a0cd3fda', '2020-12-12 06:39:16', '2020-12-12 06:39:16'),
+(110, '9ccc0073-4ce7-4761-87de-eb00f9924c3f', '2020-12-12 06:39:26', '2020-12-12 06:39:26'),
+(111, '581c1925-0611-4bbd-8226-4eb385f3f2a5', '2020-12-12 10:28:33', '2020-12-12 10:28:33'),
+(112, 'ce52adce-1f05-4cb3-9e07-51255a368c73', '2020-12-12 10:33:02', '2020-12-12 10:33:02'),
+(113, '2ee7f9ba-5502-4812-8e00-130e6e91ea39', '2020-12-12 17:11:37', '2020-12-12 17:11:37'),
+(114, 'fd1df892-96d8-452d-8124-700bf49007e0', '2020-12-12 17:14:10', '2020-12-12 17:14:10'),
+(115, 'a6d88f4b-ce1d-42fd-b422-39b75f79b2d2', '2020-12-18 10:05:54', '2020-12-18 10:05:54'),
+(116, '844091f2-16e3-48a0-bd3e-a705bc51715b', '2020-12-18 10:06:15', '2020-12-18 10:06:15'),
+(117, '97ddd6e9-9493-4f40-af5d-74c3bf73d568', '2020-12-18 10:08:07', '2020-12-18 10:08:07'),
+(118, '98764b64-3d4f-462d-9bf2-72da5ad85e59', '2020-12-31 11:35:34', '2020-12-31 11:35:34'),
+(119, '4363f71e-e7c1-493f-881d-39252cf82677', '2021-01-02 12:41:51', '2021-01-02 12:41:51'),
+(120, 'd9a8d694-b446-470d-8bb0-d67d15ae323d', '2021-01-02 12:48:16', '2021-01-02 12:48:16'),
+(121, '384431f8-8d99-48e4-a715-d573d08ff41b', '2021-01-02 12:48:34', '2021-01-02 12:48:34'),
+(122, 'e474fc42-a4b4-4f99-a084-585ab0085b5b', '2021-01-02 12:48:43', '2021-01-02 12:48:43'),
+(123, '18634da6-0a84-468c-8133-354a02a810c3', '2021-01-02 12:49:29', '2021-01-02 12:49:29'),
+(124, 'd2792a91-0a3e-4abb-a56f-48c6d01e6107', '2021-01-11 10:41:40', '2021-01-11 10:41:40'),
+(125, '500d4155-aef7-4822-8804-8c5506ec2206', '2021-01-11 10:41:53', '2021-01-11 10:41:53'),
+(126, '8135d677-ccea-48d9-95cf-1f311ed8013f', '2021-02-09 12:22:23', '2021-02-09 12:22:23'),
+(127, '24abaa6a-8a23-432c-9c5c-fef921dab42f', '2021-02-09 12:22:35', '2021-02-09 12:22:35'),
+(128, '799621fb-70d1-475b-b338-95eb32cbc068', '2021-02-09 13:13:31', '2021-02-09 13:13:31'),
+(129, 'a8e2d2f8-8e0b-4277-b714-b16cc667d588', '2021-02-09 13:15:17', '2021-02-09 13:15:17'),
+(130, '084902b4-f88f-46c7-b8fb-018076febb78', '2021-02-09 13:16:35', '2021-02-09 13:16:35'),
+(131, '0ed6c1d5-8933-4a83-8efb-445e4600f275', '2021-02-09 13:17:24', '2021-02-09 13:17:24'),
+(132, 'e26d76f7-7705-4847-a29e-d3d4e1e40403', '2021-02-09 13:18:03', '2021-02-09 13:18:03'),
+(133, '6d0ad021-f71e-4227-a249-98252fb2345b', '2021-02-09 13:18:38', '2021-02-09 13:18:38'),
+(134, 'cbcf3d66-ffea-45c6-ae7a-54afc135b46d', '2021-02-09 13:22:38', '2021-02-09 13:22:38'),
+(135, 'c160e3ca-c8fc-42cc-97b5-69a35842da74', '2021-02-09 13:24:31', '2021-02-09 13:24:31'),
+(136, 'e950324c-37d1-4b40-aec1-1c31f7a2c958', '2021-02-09 13:26:29', '2021-02-09 13:26:29'),
+(137, '2cd1a555-7785-4225-b8bd-32dd5f7e96f3', '2021-02-09 13:30:25', '2021-02-09 13:30:25'),
+(138, 'cd59f55f-2bdf-41fd-a03e-8f173470c4c2', '2021-02-09 13:33:01', '2021-02-09 13:33:01'),
+(139, '13d9857a-f7cd-4d74-a5e5-c568c3de0b1e', '2021-02-09 13:33:19', '2021-02-09 13:33:19'),
+(140, 'e08f8b2b-807a-4bc0-b214-84874f85258f', '2021-02-09 13:42:31', '2021-02-09 13:42:31'),
+(141, '0f217fac-4e59-4454-937f-3fa92931bb7a', '2021-02-09 13:47:18', '2021-02-09 13:47:18'),
+(142, '647b5ce5-23b3-403c-befe-d62aaa944bd2', '2021-02-09 13:49:21', '2021-02-09 13:49:21'),
+(143, '2d66475f-c558-4fa3-875a-6539edcf5412', '2021-02-09 13:49:58', '2021-02-09 13:49:58'),
+(144, '48688538-f385-4fa4-8988-35dfcf6b2a16', '2021-02-09 13:50:18', '2021-02-09 13:50:18'),
+(145, '3b5e0f36-6038-4bed-808e-c7a1778b58b4', '2021-02-09 13:50:49', '2021-02-09 13:50:49'),
+(146, 'a11eea94-2882-4517-b4e3-7b3cde1ef73f', '2021-02-09 13:51:31', '2021-02-09 13:51:31'),
+(147, '7a4c5234-f711-442d-a802-0c37e2110dbe', '2021-02-09 13:51:52', '2021-02-09 13:51:52'),
+(148, '5365d040-b7f8-4adc-a152-d8ff94b38d24', '2021-02-09 13:52:14', '2021-02-09 13:52:14'),
+(149, '43f9bb70-d2be-4a53-91b3-3f6439872a01', '2021-02-09 13:52:30', '2021-02-09 13:52:30'),
+(150, '33ed9885-b9fa-4323-ab2b-27769640d9f5', '2021-02-09 14:15:43', '2021-02-09 14:15:43'),
+(151, 'ebd98555-a7d3-4539-8dc8-114ba87ade3c', '2021-02-09 14:31:01', '2021-02-09 14:31:01'),
+(152, '2d1b4b06-2e8d-4a46-9ef3-9c10d33f0284', '2021-02-09 14:31:29', '2021-02-09 14:31:29'),
+(153, '40ada45e-5f7e-4e2b-ab8b-aa0c6ceb741a', '2021-02-09 19:18:41', '2021-02-09 19:18:41'),
+(154, 'f1135a65-08c8-4ee0-9fb8-048e61bf01fd', '2021-02-09 19:20:34', '2021-02-09 19:20:34'),
+(155, '84223642-f921-422a-94ed-5e30ac093d8e', '2021-02-09 19:22:32', '2021-02-09 19:22:32'),
+(156, '0d578e20-e1a5-4b1b-88a4-551a183930ad', '2021-02-09 19:25:07', '2021-02-09 19:25:07'),
+(157, '98a63a3d-35f6-4ac9-be34-57e4b9bc0dbf', '2021-02-09 20:14:59', '2021-02-09 20:14:59'),
+(158, 'a7952fd1-557c-4804-aaf6-fe86d6c44783', '2021-02-09 20:17:55', '2021-02-09 20:17:55'),
+(159, '4af96b29-7895-48c1-9494-4ae980723d72', '2021-02-09 20:31:21', '2021-02-09 20:31:21'),
+(160, '7a4a5694-e423-4454-a4e7-8d113539d161', '2021-02-09 20:35:44', '2021-02-09 20:35:44'),
+(161, '780adcd5-3f6e-46e0-9794-90754a9eaa7b', '2021-02-09 20:40:03', '2021-02-09 20:40:03'),
+(162, '81719ffd-7551-4ca3-aaa9-9d5be3820bae', '2021-02-09 20:40:24', '2021-02-09 20:40:24'),
+(163, '5b2c9b78-fe6d-4b29-a4c8-c21fc25c47d7', '2021-02-09 20:41:21', '2021-02-09 20:41:21'),
+(164, '1fea1b81-9f72-4331-a704-781d05a8ce67', '2021-02-09 20:42:15', '2021-02-09 20:42:15'),
+(165, '8031538c-a102-4eb8-8f35-e77468f07cba', '2021-02-09 20:43:10', '2021-02-09 20:43:10'),
+(166, '3f2ea2bc-80d8-4ab3-8e83-07e2c21256d9', '2021-02-09 20:43:30', '2021-02-09 20:43:30'),
+(167, '1631beb9-a416-4098-a412-4bb1bef26883', '2021-02-09 20:43:54', '2021-02-09 20:43:54'),
+(168, 'd7e9ef29-cc57-49e6-b1f6-3597da6b3354', '2021-02-09 20:44:10', '2021-02-09 20:44:10'),
+(169, 'fb170f50-916d-4b76-aa4f-aec0916d262e', '2021-02-09 20:44:28', '2021-02-09 20:44:28'),
+(170, 'f5911aa7-29c0-462b-919d-26bcfd2556fa', '2021-02-09 20:44:48', '2021-02-09 20:44:48'),
+(171, '4d7da63c-71e4-4176-9f0b-55846f4f3a08', '2021-02-09 20:45:16', '2021-02-09 20:45:16'),
+(172, '3dcb97fb-f22f-4c87-b187-b8f98afbc39b', '2021-02-09 20:45:44', '2021-02-09 20:45:44'),
+(173, 'ed020e52-0230-44f7-b2b7-81c96aa439f1', '2021-02-09 20:46:13', '2021-02-09 20:46:13'),
+(174, '53d78772-16c4-4869-a93c-92764071f698', '2021-02-09 20:46:22', '2021-02-09 20:46:22'),
+(175, 'd508fa95-2cb9-45c2-bacf-5456ad8d4489', '2021-02-09 20:46:44', '2021-02-09 20:46:44'),
+(176, '60cf2e86-8d5d-4e9c-a3b5-11df0134c6ee', '2021-02-09 20:47:05', '2021-02-09 20:47:05'),
+(177, 'a5984043-1d09-430c-af60-bdaf9a532e86', '2021-02-09 20:47:28', '2021-02-09 20:47:28'),
+(178, '295ccc45-27d8-441b-8e0e-1e81e346cad4', '2021-02-09 20:48:09', '2021-02-09 20:48:09');
+
+ALTER TABLE users add column user_ip VARCHAR(100) NULL;
+ALTER TABLE users add column language VARCHAR(100) NULL;
+ALTER TABLE users add column verified_at timestamp NULL DEFAULT NULL;
+ALTER TABLE users add column activation_code_exp_date timestamp NULL DEFAULT NULL;
+ALTER TABLE users add column is_verified INT NULL DEFAULT '0';
+ALTER TABLE users add column showNickname INT NULL DEFAULT '0';
+
+ALTER TABLE users CHANGE active_status active_status INT NOT NULL DEFAULT '0';
+ALTER TABLE users ALTER COLUMN active_status TYPE INT;
+
+ALTER TABLE users ALTER COLUMN active_status TYPE integer USING (active_status::integer) SET DEFAULT 0;
+
+ALTER TABLE users
+    ALTER COLUMN active_status DROP DEFAULT,
+    ALTER COLUMN active_status TYPE integer USING active_status::integer,
+    ALTER COLUMN active_status SET DEFAULT 0;
+
+ALTER TABLE `users` CHANGE `showNickname` `showNickname` TINYINT(1) NULL DEFAULT '0';
+
+ALTER TABLE users add column activation_code VARCHAR(100) NULL DEFAULT NULL;
+ALTER TABLE `users` CHANGE `verified_at` `verified_at` DATETIME NULL DEFAULT NULL;
+ALTER TABLE `users` CHANGE `is_verified` `is_verified` TINYINT(1) NULL DEFAULT '0';
+ALTER TABLE `users` CHANGE `activation_code_exp_date` `activation_code_exp_date` DATETIME NULL DEFAULT NULL;
+
+
+ALTER TABLE `users` CHANGE `activation_code` `activation_code` VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+
+ NULLIF(expire,'0000-00-00 00:00:00')::timestamp
+
+INSERT INTO users (id, name, email, active_status, dark_mode, messenger_color, avatar, password, api_token, user_ip, device_token, language, verified_at, is_verified, activation_code, activation_code_exp_date, stripe_id, card_brand, card_last_four, trial_ends_at, braintree_id, paypal_email, remember_token, created_at, updated_at, city_id, phone, last_name, status_id, user_id, duration_id, description, balance_id, background_profile, delegate_id, device_code, address, caption, showNickname, website, nickname, notification) VALUES
+(1, 'Michael E. Quinn', 'admin@demo.com', 0, false, '#2180f3', '6954059d-d16f-48e7-95bf-cbf765dd758b.png', '$2y$10$YOn/Xq6vfvi9oaixrtW8QuM2W0mawkLLqIxL.IoGqrsqOqbIsfBNu', 'PivvPlsQWxPl1bB5KrbKNBuraJit0PrUZekQUgtLyTRuyBq921atFtoR1HuA', NULL, '', 'en', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'DeNfPYTfh2EHMnNAdjaMWDwWKk3rPCHdtpC7rWt94lktjNqoZX0GZMLW7hiW', '2018-08-06 16:58:41', '2021-01-17 11:37:09', NULL, '+136 226 5660', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(2, 'Barbara J. Glanz', 'manager@demo.com', 1, false, '#2180f3', 'avatar.png', '$2y$10$YOn/Xq6vfvi9oaixrtW8QuM2W0mawkLLqIxL.IoGqrsqOqbIsfBNu', 'tVSfIKRSX2Yn8iAMoUS3HPls84ycS8NAxO2dj2HvePbbr4WHorp4gIFRmFwB', NULL, 'asdasd', 'en', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'rUFHsoTya93DGfgrmhyN4eCcMrODxGUceMuFTMbHDDTI7EnwbMmW1ByfMKYR', '2018-08-14 14:06:28', '2021-01-22 11:21:04', NULL, '', '', 1, NULL, NULL, ' ', 4, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(3, 'Charles', 'client@demo.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$EBubVy3wDbqNbHvMQwkj3OTYVitL8QnHvh/zV0ICVOaSbALy5dD0K', 'fXLu7VeYgXDu82SkMxlLPG1mCAXc4EBIx6O5isgYVIKFQiHah0xiOHmzNsBv', NULL, 'asdasd', 'en', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'V6PIUfd8JdHT2zkraTlnBcRSINZNjz5Ou7N0WtUGRyaTweoaXKpSfij6UhqC', '2019-10-12 19:31:26', '2021-01-22 11:46:54', 4, '', ' W. Abeyta', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(4, 'Robert E. Brock', 'client1@demo.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$pmdnepS1FhZUMqOaFIFnNO0spltJpziz3j13UqyEwShmLhokmuoei', 'Czrsk9rwD0c75NUPkzNXM2WvbxYHKj8p0nG29pjKT0PZaTgMVzuVyv4hOlte', NULL, '1212255', 'en', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2019-10-15 14:55:39', '2020-03-29 14:59:39', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(6, 'John Doe', 'driver1@demo.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$YF0jCx2WCQtfZOq99hR8kuXsAE0KSnu5OYSomRtI9iCVguXDoDqVm', 'zh9mzfNO2iPtIxj6k4Jpj8flaDyOsxmlGRVUZRnJqOGBr8IuDyhb3cGoncvS', NULL, '111', 'en', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'K4JnbfathAPTaSQgKmD5ssGQ4SVFX83dDcDq55XWODvcgVZZxBJ9d2tOYoac', '2020-03-29 14:28:04', '2021-01-02 12:42:04', 4, '+136 955 6525', 'ijn', 2, 1, NULL, ' ', 1, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(7, 'jashcbhj', 'ahsgcv@gfsca.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$mvR9ZwB82nYb24eSW6rhwe0L/VzxfpFSy1SMr50uKLXv75jsiD2rW', 'cmBPUeAoKoy1yHd7ky39OUNbsjRBvY3YMgVHbbcJ7kBUhuF3x9QMnDeLCHfw', NULL, NULL, 'en', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2020-12-18 14:13:10', '2020-12-26 11:54:33', 4, '646', 'shbvjhv', 2, 1, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(8, 'mousa', 'sayageen@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$RM0zGMk74Q8pWYys9Y8xJOw/NkBX.ul0yNOR/MkcTOCt8toc6Nm2S', 'qoWmmOi9W4pzVs989zrHe0TM58BZS80U6AA4QP0Ni7gDgpyVf7RPdTBSzjxi', NULL, 'f64-pk7KXSWn1bdO0LtT6j:APA91bEbele2fnKEwrNXNHUUGY1toFaq8sLjtBC8ar6S57v8PVRx9d6ed3JITNy9LjUyEDGyabMSULjWImMpBbGvsWzMswav35lNuhWEyA5iJgnR6pSvjMb2lzl6tzx7y368i7M4bGM1', 'en', NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2020-12-31 10:54:12', '2021-02-03 02:18:09', 4, '65465', 'sayageen', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(9, 'mousa', 'saageen@gmail.com', 0, false, '#2180f3', 'jvhujk', '$2y$10$zKPDuwGiFyCwdMupGzqvnO1zksBYrn3kbk2yU8y9cLS8rIfs3IBhy', 'WYG2lD2fABoCx6WPabWAnDMgGl3qNw2t7AmUrtNYuZHhCz7yQCQWMVHwDLZ4', NULL, '', 'en', NULL, 0, '123456', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-01 01:45:27', '2021-01-01 01:48:54', 4, '', 'sayageen', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(10, 'mousa', NULL, 0, false, '#2180f3', 'jvhujk', '$2y$10$DFhD.EHswkSgzEyCxA4UCutltr/Jgvsr.kIKW.Ao4vy1m262ysgOm', 'FWE8yC4xKmeHOLr5UAqJdehMN8xfT60hXXkj4vboIZIcneNgyE33wLP2N1PA', NULL, 'euhfui', 'en', NULL, 0, '123456', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-01 01:48:11', '2021-01-01 01:48:11', 4, '0875', 'sayageen', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(11, 'jjj', 'tred@hgvgh.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$f0Rib6b39SKNacsX3f/bQONiu6gdtXP2uFw5MXeq550K8SgF.GUWm', 'pwQWK2GUBgezf4Wg8ysYJ6R2ZR54FB2w1DYxX5PmGtQlDxtXrxdyEn8hhLNn', NULL, '123456', 'en', NULL, 0, '123456', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-04 09:59:50', '2021-01-04 10:06:56', 4, '', 'uuu', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(12, 'jjj', 'tred@hgvkgh.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$s9.3abYHpixWh0Si9L0pCOJ4/c5UCCdf94fVUWCRTn50qSTJm.7D6', 'rtNZ9i7ZIv68yHc9Dyi6aRVuyGmIhducOJtpwgrg0duOvecn1XVq34FlVNuz', NULL, 'f64-pk7KXSWn1bdO0LtT6j:APA91bEbele2fnKEwrNXNHUUGY1toFaq8sLjtBC8ar6S57v8PVRx9d6ed3JITNy9LjUyEDGyabMSULjWImMpBbGvsWzMswav35lNuhWEyA5iJgnR6pSvjMb2lzl6tzx7y368i7M4bGM1', 'en', NULL, 0, '123456', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-04 10:10:12', '2021-01-04 10:10:50', 4, '0', 'uuu', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(19, 'yaman', 'yaman@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$2a.AoUTeovHnhy9eACsvO.4zP2hPKQr5y7AxNKIDdqgtRq3EkoJda', NULL, NULL, '1234567890', '', NULL, 0, '5252', '2021-01-30 14:55:17', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-30 14:40:17', '2021-01-30 14:40:17', NULL, '', 'sh', 1, NULL, NULL, ' ', NULL, NULL, NULL, 'hBZKJCtESdmjjOhRQS9t5ZRQ6YmAHsz0iztZw2lrAqKbKYQgZ7xMzaBqe7ME1612017617', '', NULL, 0, '', '', true),
+(20, 'yaman123', 'yaman123@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$Nq3ar1T.fj7F3QmECB2r8uFIbC8OspVlMliy1TKsrDT19y.sl/eCq', NULL, NULL, '1234567890', '', NULL, 0, '8486', '2021-01-30 14:59:14', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-30 14:44:14', '2021-01-30 14:44:14', NULL, '', 'sh', 1, NULL, NULL, ' ', NULL, NULL, NULL, 'tqeUnVvGbpNMG4kmqJK1GJI9L9hBw1fFDscdq5dO2Z2ceiMeqKC5PouT5NNA1612017854', '', NULL, 0, '', '', true),
+(21, 'yaman123dsfdsf', 'yaman123aaa@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$4nrKDunyjsOOD4wFBPrJ1ed9uJ.8H7p7o9CSfKjS0ybeRS.Z4FDq2', NULL, NULL, '1234567890', 'en', NULL, 0, '7137', '2021-01-30 14:59:33', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-30 14:44:34', '2021-01-30 14:44:34', NULL, '', 'sh', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(22, 'user1', 'user@hotmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$ckgWBNZQ.3d./GJAN.ny..lqjUhP5yy1EB/F1t5TebXoCZKuwFD3y', 'dRez0dY3CLnIcj5T3LFfAPxzLd2ijL9c8aVi5FrN5XOB5bMaoFiJFIlWqrnD', NULL, NULL, 'ar', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-30 15:07:52', '2021-01-30 15:07:52', 4, '0', 'a', 1, 1, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(24, 'any', '1aasdg@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$N1acX07LZh55Vyuh4UCjbOASHv7VPc3tFtEqUX0bvOEtfOubzM3bG', NULL, NULL, '32345ad6b67d36e8dd1e93751eafe59512eb', '', NULL, 0, '2142', '2021-01-31 11:48:12', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-31 11:33:12', '2021-01-31 11:33:12', NULL, '', 'any', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(25, 'any', 'xdggasdg@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$rTp71ILORjKjjkppZbm8GufVtqarCMrGGlMABxWqvsq6vR.FDn8iK', NULL, NULL, '32353f5398785d405e86ac9ddd237d0f453e', 'en', NULL, 1, '3437', '2021-01-31 11:48:38', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-31 11:33:38', '2021-02-08 20:47:09', 4, '', 'any', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(26, '', 'xdggag@gmail.com', 0, false, '#2180f3', '6021c7a8bf496download.png', '$2y$10$9xP0bjtKfx8D/MErqRXOSu/kD2Ys1CqWOrj5ImO85F.shL.tX9KPC', NULL, NULL, '32369cbafe81d49e90e900d8ae23bceacfe1', 'ar', NULL, 1, '1407', '2021-01-31 11:49:26', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-31 11:34:26', '2021-02-10 14:41:35', 4, '65645', 'any', 1, NULL, NULL, 'any', 5, '6021c7a8bbb6apreview-small.jpg', NULL, NULL, 'advsv', 'تتتتتany', 0, 'www', 'any', false),
+(27, 'ayman', 'ayman@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$2E3AoxO/QD974R3elkyRtuzlletJlCGRY1S8Nf/nLnKNkQ8LGNAoS', NULL, NULL, 'f64-pk7KXSWn1bdO0LtT6j:APA91bEbele2fnKEwrNXNHUUGY1toFaq8sLjtBC8ar6S57v8PVRx9d6ed3JITNy9LjUyEDGyabMSULjWImMpBbGvsWzMswav35lNuhWEyA5iJgnR6pSvjMb2lzl6tzx7y368i7M4bGM1', 'en', NULL, 0, '3880', '2021-01-31 20:29:23', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-31 20:14:23', '2021-01-31 20:14:23', NULL, '', 'ahmed', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(28, 'ahmed', 'sss@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$kDgM0s3UEoUk98viGxA/Eueu/ZWDtC0XuMgNkkubIbkDOJWD/YPWG', NULL, NULL, '323813bc8ef20ba3415f96b9b27b973c0fcc', 'en', NULL, 0, '2973', '2021-01-31 20:48:03', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-31 20:33:03', '2021-01-31 20:33:03', NULL, '', 'ayman', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(29, 'ahmed', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$H2mY8UxtO84f8DWC/S6Hbe4GC8tuZygQ.xZgTL4deSTfgK4r7uqFO', NULL, NULL, '3239059d2c36ecc99a0872c85ab046b38366', '', NULL, 0, '6810', '2021-01-31 20:54:24', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-31 20:39:24', '2021-01-31 20:39:25', NULL, '01069686072', 'ayman', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(30, 'aymana', 'aymana@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$M2cuXFXwbVD5AJdnAyCgbeZaGXqq4m.A6A69vBzhh7DLtIJsvPIeG', NULL, NULL, 'f64-dsjnhdcjbchbcdhbbcdhc', 'en', NULL, 1, '3136', '2021-01-31 21:01:37', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-31 20:46:37', '2021-01-31 20:49:32', 4, '', 'ahmeda', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(31, 'aymanaaa', 'aymanaaa@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$qC6Xghg/FkEs.iUCXTh3duX7XI4XwjsqLdTRPYve2q/epoHCPB/MC', NULL, NULL, '33313b7495c6014e2057ba58bf774d3323b2', 'en', NULL, 0, '6958', '2021-01-31 21:08:40', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-31 20:53:40', '2021-01-31 20:53:40', NULL, '', 'ahmedaaa', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(32, 'any', 'xdggaaasdg@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$G8J0N3eI.l6oEbCFWfXwMe3/EhqV6CDIADecwtNG8S6CoD54GQlMG', NULL, NULL, '3332356d4ddcbb29a6079b3544b522dfd5df', 'en', NULL, 0, '8545', '2021-01-31 21:09:18', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-31 20:54:18', '2021-01-31 20:54:18', NULL, '', 'any', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(33, 'eslam', 'eslam.hassan.elswesy@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$InT/zzZTDen/GZhOLFMge.ZE9vThmbNCBplBZZyfrmaWTH3Gshyq.', NULL, NULL, '33338b9824d7e55e99e5b54ab2dad05991e0', 'en', NULL, 1, '8094', '2021-02-01 09:07:13', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-01 08:52:13', '2021-02-01 08:57:14', 4, '', 'hassan', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(34, 'vendor', 'v@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$c9kP42nATBlALUDfxOXDue9x9Vq89hGZEmXZIDo6OQIaQlLSdalgC', NULL, NULL, '333461b8274e4d9e56962d53dea04f618379', '', NULL, 1, '4362', '2021-02-01 09:14:36', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-01 08:59:36', '2021-02-01 09:01:09', 4, '', 'any', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(35, 'eslam', 'essss@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$8qBr3ApWqGyXeW4Z5Y92wuAo0ETwLzYEuVtBCfF3abSLLKnwDhQrK', NULL, NULL, '33355e97ff480101b03d5c2952f7ca8bc4da', 'en', NULL, 0, '9404', '2021-02-01 22:20:32', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-01 22:05:32', '2021-02-03 01:25:55', 4, '', 'hassan', 1, 1, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(36, 'eslam sai', 'essssssaa@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$QlI49/goIFMNLIHVbJlzROH/72bImA8eUkI6vhwIc/s1B.E8l2NQS', NULL, NULL, '3336b1cd90d27eaaffed740e3674f3bb80b9', 'en', NULL, 0, '7582', '2021-02-02 00:21:52', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 00:06:52', '2021-02-02 00:06:52', NULL, '', 'hassan', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(37, 'any', 'xdggiiasdg@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$GPQoXkexy25nyTc4FjYSGeYuIvg4r4NQJ0O0KHeliv52KlHrt0HeK', NULL, NULL, '3337f057f6606d03fed4c2fe1e9d8b9f12b0', 'en', NULL, 0, '8114', '2021-02-02 08:09:41', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 07:54:41', '2021-02-02 07:54:41', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(39, 'emam', 'ess@g.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$VqSZbqKBa0TYzUufaZfqHO0K2970bNxSyoL7zphYG8Er9VTBUaBWq', NULL, NULL, '33395cddf048e5bc9d45288534f65e9ca29c', 'en', NULL, 0, '5567', '2021-02-02 21:31:18', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 21:16:18', '2021-02-02 21:16:18', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(40, 'anyss', 'xdggssasdg@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$uGwOC2fG/74BCvr5x6c.8OgM0G9UVbKrrz3C4xxIXJnXP/U88H2Sq', NULL, NULL, '34308fac4ae384eec91e3572e957ea75d2f6', 'en', NULL, 0, '8390', '2021-02-02 21:32:16', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 21:17:16', '2021-02-02 21:17:16', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(42, 'ameeda', 'e4eed@g.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$AMK05WjkMg2/91G.G9K1yORcO6a4xvVBYn6Gz/H7rn1vgzXiW2GZC', NULL, NULL, '3432dbeac78aacbcef365101e4405a7853ec', 'en', NULL, 0, '7423', '2021-02-02 21:41:05', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 21:26:05', '2021-02-02 21:26:05', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(44, 'anysssas', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$n/HB01MhSXSxzBaBn/MHJey1XBjnWisCZ1LVI.0/681sbthyr/nym', NULL, NULL, '3434db6aef0d1f604497461645705f92d65d', 'en', NULL, 0, '4561', '2021-02-02 21:43:17', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 21:28:17', '2021-02-02 21:28:17', NULL, '0106965656750', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(45, 'anysssas', 'ed@g.coms', 0, false, '#2180f3', 'avatar.png', '$2y$10$VrWUoExcVRWNS7i8WxBuXu47Xom918cqEyIB6bkv/2NarE2lf4A8m', NULL, NULL, '3435187839ffa1a97c7eccc33dc5e021290c', 'en', NULL, 0, '4931', '2021-02-02 21:43:45', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 21:28:45', '2021-02-02 21:28:45', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(46, 'ahmed', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$4spU4H6OujECrXBpX6On1uHXCBdZPQuWSJAQX9LdSU78uZ6/YepcO', NULL, NULL, '3436422ff8ff3361fc82b6b2a3910a7b6903', 'en', NULL, 0, '9943', '2021-02-02 21:59:07', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 21:44:07', '2021-02-02 21:44:07', NULL, '01069650220', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(47, 'any', 'xdggyyag@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$cpnx4pQ78dm8lUDkyedFK.yzk8sqD7AYfOfkqDszV4bLOHhtECbJK', NULL, NULL, '343719a8f648ccdbd5d2a5011bbeab0b0a36', 'en', NULL, 0, '7943', '2021-02-02 22:11:20', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 21:56:20', '2021-02-02 21:56:21', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(48, 'ayman', 'adel@gotemdone.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$Lwpgy7uCABw1nwCnwo3JYu32o.vKJgGGBhr7fjE/namwA4oN2KoSW', NULL, NULL, '3438086a5b313fd563b7baddb24a33bc1566', 'ar', NULL, 0, '7252', '2021-02-02 22:12:05', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 21:57:05', '2021-02-03 01:26:26', 4, '01069686074', '', 1, 1, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(49, 'assasas', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$CH2GofQyJzhpWQNJDeLxUOCaythcSLAa6hzw.KPluOCU/jdNghVJq', NULL, NULL, '3439c97c0d6883dba3ee1a70c28634848a1c', 'en', NULL, 0, '3111', '2021-02-02 22:14:50', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 21:59:50', '2021-02-02 21:59:50', NULL, '123245668789', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(50, 'eslam', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$O4vIyckpFPEHuE.uNxxGRuAwHAk2GAB0pTXdGTYq2Oyyo0Pq8f1aS', NULL, NULL, '3530ab4082d7e0422dab4bcaa8d166e45607', 'en', NULL, 0, '7228', '2021-02-02 22:18:55', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 22:03:55', '2021-02-02 22:03:55', NULL, '01069686552', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(51, 'asssdd', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$fguwNwLx8aOr59gH6PR4zudT0qKO0khCxBz3xa2TXlm2QVylKMzKW', NULL, NULL, '3531cc68412c17e71155890b124a5cf7829d', 'en', NULL, 0, '4661', '2021-02-02 22:27:01', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 22:12:01', '2021-02-02 22:12:01', NULL, '010696860', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(52, 'Mousa', 'adminm@adminm.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$OCYQ2i0efmMI4D.Hhn1e5uplIK6pAA8bOSBb3tv3wcmTztf040vwS', NULL, NULL, '3532f75b28cea4ec175320fb027ec3194d62', 'ar', NULL, 0, '7945', '2021-02-02 22:45:26', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 22:30:26', '2021-02-02 22:30:26', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(54, 'mmmm', 'mazen.alsamer98@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$db6SKWX9rYZYTpcZtAVWceEXi/GoknPAs1SAfSSRtugGQvAt1w8om', NULL, NULL, '3534b00df74eee3a5af2ea1e9b5a085da698', 'ar', NULL, 0, '5889', '2021-02-02 22:46:58', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 22:31:58', '2021-02-02 22:31:58', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(55, 'smart', 'smartservices193@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$r19z7Ob6n.l5HcY9KQxrau5uP2.MX3HvqHiHDUCg0tn0HXBKvlNDq', NULL, NULL, '3535c3941b08574598edac0bc7a943827891', 'ar', NULL, 0, '3077', '2021-02-02 22:49:16', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 22:34:16', '2021-02-02 22:34:17', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(59, 'any', 'xxxxxxxxxx@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$dcvpM/Y5BYgazFssgE3wDew6oKl31YYjAqUQuOke8ndsFuVFeHSI6', NULL, NULL, '35394b1c1814b2fbef989731c1be7807abe3', 'en', NULL, 0, '4914', '2021-02-02 23:27:07', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-02 23:12:07', '2021-02-02 23:12:07', 4, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(61, 'any', 'xdggammnsdg@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$Rj23.a92U.2EX4RlpMqY6.joGS6Ohjsby4pKoRihIDlax8dPaGh3S', NULL, NULL, '36310e855422276b4e397d9709f2b47a78a2', 'en', NULL, 0, '9568', '2021-02-03 02:23:12', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-03 02:08:12', '2021-02-03 02:08:12', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(62, 'adel10', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$5V/ut0wI0VJY/SZ/qrCESObcL7jeOwRkJpQGQzBMpDyY38wruHNTq', NULL, NULL, '36325ccabe3f2e022c0e67af9690bd2ffa1b', 'en', NULL, 0, '2030', '2021-02-03 10:28:01', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-03 10:13:01', '2021-02-03 10:13:01', NULL, '+973557302126', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(63, 'any', 'xdggasdg123@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$hvwI7HH25YvuqapMv2X45eI.YlvGDgINFG.P0PeEUCi4t6FibIYsa', NULL, NULL, '363365196043b1ef885705c671f6a4c124fe', 'en', NULL, 0, '9184', '2021-02-03 18:13:25', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-03 17:58:25', '2021-02-03 17:58:25', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(65, 'any', 'xdggasddffdg@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$sWAMImhzpTQWCeBE/nEmXOpJFgf7tjtnFYqsMy8L5ikh9ouk9Fu2m', NULL, NULL, '3635df036ceb42ce5ee79af1eb6086a2eec2', 'ar', NULL, 1, '1253', '2021-02-04 10:23:11', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 10:08:11', '2021-02-04 12:19:20', 4, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(66, 'ayman', 'engeslamhassan5@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$TXTuL5yjCAySYa07gpdcNOPMz7dL8pQFwynmH6CjbOeA49Qd2YbCe', NULL, NULL, '36363379b226478448640fc8cfd4b059bb4c', 'ar', NULL, 0, '7420', '2021-02-04 12:48:24', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 10:19:38', '2021-02-04 12:33:25', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(67, 'adel', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$mYdK.ImowdzF.yTV4EWs5.c4mfx4/L6g4mEqxsK5MjkJK/wz1yvqi', NULL, NULL, '36373572ea20aa4b280ab32ed245cdb084ef', 'ar', NULL, 0, '1525', '2021-02-04 11:14:01', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 10:59:01', '2021-02-04 10:59:01', NULL, '0106565656', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(68, 'name', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$AB1D9qMGlrXdPC/HVrXC0O/3LzutykjR9N85B49zWH0Ifj9wMXTny', NULL, NULL, '3638d66f0fb05bca63b27a94a20b28a2ed91', 'ar', NULL, 0, '9117', '2021-02-04 12:34:34', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 11:02:30', '2021-02-04 12:19:34', NULL, '01069686000', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(69, 'omniaaa', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$qranOTkj2UMlGj990k4HaeF7BPx5jZosYYPBaGntJPb077xXLPY2q', NULL, NULL, '363938588475f08b1bce82a20fa3ca5ad510', 'en', NULL, 1, '8029', '2021-02-04 11:25:01', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 11:10:01', '2021-02-04 11:10:28', 4, '01006362600', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(71, 'any', '', 0, false, '#2180f3', 'avatar.png', '$2y$10$EouB3hemxilpN6ti9cLax.u13C1NYHMZySl0zqn4sVhCPxOE1W/iO', NULL, NULL, '3731a22000fb0dc56f61b797807e6fa20895', 'en', NULL, 0, '8641', '2021-02-04 13:01:35', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 12:46:35', '2021-02-04 12:46:35', NULL, '123123', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(72, 'anyws', 'x@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$NM3J55NEjBPQrcRca6oquOfHmZOacVmeFLv2BXix3hA.SZMnx8oiq', NULL, NULL, '3732dbf0f352275ca5d59197b8c71c4a2490', 'en', NULL, 0, '8889', '2021-02-04 13:04:35', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 12:49:35', '2021-02-04 12:49:35', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(73, 'vendor', 'eng@g.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$SUALL.10jnTqQ/K9odoXie1a3sZP53SiiXEd0qMCvnxm.zYkVstY.', NULL, NULL, '373338a3e28ff1ec4ff88d6e8cc95c3e1baf', 'en', NULL, 1, '7033', '2021-02-04 13:07:46', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 12:52:46', '2021-02-09 21:31:35', 7, '09534654621', '', 1, NULL, NULL, 'cccc', NULL, NULL, NULL, NULL, '', 'ddddss', 0, '', 'fdddd', false),
+(74, 'fdasfds', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$dfNb4pHg5KSDeB6xC2ihjuB7nHYuhB75hewRQ6drku3cbxwJhjBe6', NULL, NULL, '37343ac6bf88da323f9950bda32ca65785ac', 'en', NULL, 1, '7712', '2021-02-04 14:35:58', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 14:20:58', '2021-02-09 21:21:57', 4, '09534654621', '', 1, NULL, NULL, 'dsafedf', 6, NULL, NULL, NULL, '', 'fesfd', 0, '', 'ffdfdf', false),
+(75, 'omar', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$a/I7A11Xl6JhgO3jLHjKhe6eZv.JmnwarYOHy8UVYTs1FFrLk1o/W', NULL, NULL, '3735cdfefb706ae8d3c7404c50741cb3ebed', 'ar', NULL, 0, '4893', '2021-02-04 14:38:10', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 14:23:10', '2021-02-04 14:23:11', NULL, '010202020', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(76, 'aahmed', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$5uWoz6GI7IEM68waj7/E/es4KoEn9bKvVTok23q/pFQC7IwWCr6/q', NULL, NULL, '37363388e46ba7d26422058bba4312d29049', 'en', NULL, 0, '5810', '2021-02-04 14:57:15', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 14:42:15', '2021-02-04 14:42:15', NULL, '010696865', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(77, 'omar', 'eslamhasssanelswesy@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$nHjZYXIWHzzyoWOwp6PS4ugVTNQ3vWfsj6uTS5SyIJH9wGwQAlczS', NULL, NULL, '37375921c61ea54a043e78198859cd809156', 'ar', NULL, 1, '1252', '2021-02-04 17:41:44', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 17:26:44', '2021-02-04 17:27:02', 4, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(78, 'aaddeeeeel', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$F0fEu/eeueyCAt2ZwukjfOIZ2/clyDMmG1DvOcE2kJtlslM2juNm6', NULL, NULL, '373849862be8192260fa8e10911895b4b6b6', 'ar', NULL, 1, '8336', '2021-02-04 18:37:27', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 18:22:27', '2021-02-04 18:22:39', 4, '0106969696', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(79, 'eslam', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$Q4KvnT8Mr6NEsPG84vXuEOTjfOxxVflDJp0sKtZTv0WM6ek7QkXDi', NULL, NULL, '3739bc6d771022ef8a56aa3ab6c4bc85ad53', 'ar', NULL, 1, '9906', '2021-02-04 19:59:35', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 19:44:35', '2021-02-04 19:44:55', 4, '010101010', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(80, 'aeeeeee', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$klUKAeVt5Ohfi.gX0BoASukwYfUuoTJyYNPdHHhmcHyY3sX/yCDdW', NULL, NULL, '3830dd71cd7b539dcfe721c7d44edd69a9c5', 'ar', NULL, 0, '5252', '2021-02-04 22:02:54', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 21:47:54', '2021-02-04 21:47:54', NULL, '0106968666', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(81, 'dffdfd', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$MY.vhKLgv1MQE6bj.IHw4eRQLzrYyI/QxuXtVXv7yVnxvidD66oxC', NULL, NULL, '383130d13bae2b3f05527dfb13bbbd3511f4', 'ar', NULL, 1, '6129', '2021-02-04 22:03:33', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 21:48:33', '2021-02-04 21:48:45', 4, 'dffdffd@g.com', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(82, 'adheem', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$bf6yrbhWcIVjBSP2GcqY8OKQ8D2/CQpSwWor3oOC1MCruY.4JXduO', NULL, NULL, '3832dce3665d15043f13b332441ea7b23a42', 'ar', NULL, 1, '6363', '2021-02-04 22:20:49', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 22:05:49', '2021-02-04 22:06:01', 4, '0101012222', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(83, 'hhahsss', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$3MMifiP836tIlh8w6X9njuEGct.Ds3O8Cc7iXR./om1BIoRP2jamK', NULL, NULL, '38338484667dcef8d52f72692894a7db8faa', 'en', NULL, 1, '4727', '2021-02-04 22:23:44', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 22:08:44', '2021-02-04 22:08:57', 4, '011111111', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(84, 'sportitol.92@gmail.com', 'sportitol.92@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$suPV2EI5lPLDotKOVn8s5upSkifF7k2qQsG9SZTGLQiInduLvFoPa', NULL, NULL, '3834c677dda920647391ea5a1b2eaced3676', 'en', NULL, 0, '3633', '2021-02-08 15:46:46', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-04 22:33:35', '2021-02-08 15:31:48', NULL, '', '', 1, NULL, NULL, ' ', NULL, NULL, NULL, NULL, '', NULL, 0, '', '', true),
+(85, 'sfdfds', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$ZQHF7Q6YyoDMTuAHcBhy1uddfiy08dgYbt6EipaOe8ikNq/upLhh2', NULL, NULL, '383513cc696aff50300c469725092a66542e', 'ar', NULL, 1, '2186', '2021-02-05 00:48:52', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-05 00:33:52', '2021-02-05 00:38:56', 4, '012312120', '', 1, NULL, NULL, 'fdsfdf', NULL, NULL, NULL, NULL, '', 'dsfdsafs', 0, '', 'sfdfds', true),
+(86, 'nameeee3', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$jRq1lC3WPudW4TSjiksbPuxhYD8yu1dH5L67yrzgLjrIo0d3jfKwu', NULL, NULL, '383645a9452fc16a3470626fc1e3f78b85aa', 'ar', NULL, 1, '3872', '2021-02-05 14:02:41', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-05 13:47:41', '2021-02-05 13:50:05', 4, '01001000100', '', 1, NULL, NULL, 'adsdddddvbout', NULL, NULL, NULL, NULL, '', 'name1', 0, '', 'aname2', true),
+(87, 'sssss', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$koMIEJu558B6N0urwTsj.eEsyzwOh/vpii9v2LFQxXO67.TJm6XMO', NULL, NULL, '38376668da09f7c3fdffdeedfb7ea9a362df', 'ar', NULL, 1, '2117', '2021-02-05 15:41:46', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-05 15:26:46', '2021-02-05 15:27:25', 4, '010696866666', '', 1, NULL, NULL, 'ddddd', NULL, NULL, NULL, NULL, '', 'sddsd', 0, '', 'dsds', true),
+(88, 'wwweeesss', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$Md.ZdJTX6vHma1vjWSLVRO.L9uIfupJL6urZD6GWUgZg68lD03JE2', NULL, NULL, '3838111f38de27119519038ac19e75c8f5e0', 'ar', NULL, 1, '8478', '2021-02-05 17:03:36', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-05 16:48:36', '2021-02-06 00:56:19', 7, '65645', '', 1, NULL, NULL, '010696856052', NULL, 'background.jpg', NULL, NULL, 'advsv', '‏suez', 0, 'www', 'eslamooo', true),
+(89, 'eslam', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$r7Yw5AKse/2X1CMfiy.kyeV7gNP3Nud5Zs/0.2e9wdTChXSgwKcsq', NULL, NULL, '3839445915a591388078ca6d002b80a7c909', 'en', NULL, 0, '2642', '2021-02-08 13:37:40', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-08 13:22:40', '2021-02-08 13:22:40', NULL, '123456789', '', 1, NULL, NULL, ' ', NULL, 'background.jpg', NULL, NULL, '', NULL, 0, '', '', true),
+(91, 'ya', 'yamahn0sh@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$qLmhYjIEOkHhz2w5byWYpObDTvUKyLBrP0H0GH5N6sxunvO0ZIjOe', NULL, NULL, '3931f3a63419131da338c37158e2dc513029', 'en', NULL, 1, '6262', '2021-02-08 15:50:42', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-08 15:35:42', '2021-02-08 15:38:50', 4, '', '', 1, NULL, NULL, 'ind', NULL, 'background.jpg', NULL, NULL, '', 'Test', 0, '', 'sales', true),
+(92, 'cv', 'yamanshahbandar4@gmail.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$l0ksnAkv.yrYQr9bmMFiPe5QhbtR5O98t/r8DW5GpI7O56uSUeuAO', NULL, NULL, '3932f0fd6eb071eb8594f8ab5400ef2bdf1a', 'en', NULL, 1, '5016', '2021-02-08 15:57:05', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-08 15:42:05', '2021-02-08 15:43:08', 4, '', '', 1, NULL, NULL, 'vg', NULL, 'background.jpg', NULL, NULL, '', 'ff', 0, '', 'fg', true),
+(93, 'adel', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$dMVfSmzxGMN1/MtT7gcDTOhagA9Pk.IJt2sP2INhLEcWWrGOW47Zm', NULL, NULL, '39335b8e86841ad1228abae1a5b43bb41364', 'en', NULL, 0, '7300', '2021-02-08 16:02:43', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-08 15:47:43', '2021-02-08 15:47:43', NULL, 'adel-kweifati@outlook.com', '', 1, NULL, NULL, ' ', NULL, 'background.jpg', NULL, NULL, '', NULL, 0, '', '', true),
+(94, 'here my owner name', 'adel-kweifati@outlook.com', 0, false, '#2180f3', 'avatar.png', '$2y$10$DMiwMzXO/iN/PxGT7N68e./JBiCWiq6CDq022/p6.brFbDjXO48cm', NULL, NULL, '39340fe8cc62edcbe64c60a9850ddad54fc5', 'ar', NULL, 1, '6245', '2021-02-08 16:07:31', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-08 15:52:31', '2021-02-08 18:39:17', 6, '', '', 1, NULL, NULL, 'here about me', NULL, 'background.jpg', NULL, NULL, '', 'new caption', 0, '', 'here my business name', false),
+(95, 'maher', NULL, 0, false, '#2180f3', 'avatar.png', '$2y$10$seTc4Sxk6JHnpD2YlJLd6eTz5VDMy8MjTymMJx4JN9oqhxWvxn3HS', NULL, NULL, '39350d9874d29762dd8e212826048da73325', 'ar', NULL, 0, '4663', '2021-02-09 23:26:31', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-02-09 23:11:31', '2021-02-09 23:11:31', NULL, '66888', '', 1, NULL, NULL, ' ', NULL, 'background.jpg', NULL, NULL, '', NULL, 0, '', '', true);
+
+
+
+
+
+Hi $user->name!
+
+Thank you for choosing Smart Home Services .
+
+Your verification code is $user->activation_code.
+
+Enter this code in our our app to activate your account.
+
+If you have any questions, send us an email.
+
+if it wasn't you who submitted your email address in the first place ,
+well then that's messed up and  we're sorry ,
+Simply ignore this email and don't copy the code above,You will not receive any emails from us.
+
+We’re glad you’re here!
+The Smart Home Services team
+
+
+Thank you for choosing [customer portal] to deal with [client’s pain point].
+
+The [customer portal] offers all of the information you need to get the most out of our [product/service]] and much more.
+
+To access your account, click on the big [color] button:
+
+[Button]
+
+Once again – thank you for joining our [customer portal] family!
+

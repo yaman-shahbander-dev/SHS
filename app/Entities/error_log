@@ -1,0 +1,4 @@
+[27-Sep-2020 12:13:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/adminuser/public_html/karshah.ae/app/Entities/UploadRepository.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/app/Entities/UploadRepository.php on line 14

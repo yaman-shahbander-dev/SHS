@@ -1,0 +1,95 @@
+.kf_cur_catg_des{
+    min-height: 156px;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.sub-text a{
+    color:black;
+}
+
+.sub-text a:hover{
+    color:#656af3;
+}
+
+.news-title{
+    border-bottom: 2px solid #656af3;
+    background-color: whitesmoke;
+    height:400px;
+    text-align: center;
+    padding-top: 5%;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.news-title:hover{
+    border-bottom: 5px solid #656af3;
+}
+.item-1{
+    height: 400px;
+    width:100%;
+}
+
+.carousel-inner{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*       5.7: Clients section
+/* ---------------------------------------------- */
+
+.logo
+{
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor:pointer;
+}
+
+
+.logo:hover
+{
+    filter: none; /* IE6-9 */
+    -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+@media (max-width: 750px){
+    .carousel{
+        max-height: 250px;
+    }
+    .new-content.new-title{
+        max-height: 250px;
+    }
+  	
+  	.location_des {
+    background: #fff;
+    left: 25%;
+    padding: 30px 30px 0px;
+    position: absolute;
+    top: 50%;
+    width: 30%;
+  }
+}
+
+@media (max-width: 500px){
+    .carousel{
+        max-height: 190px;
+    }
+    .new-content.new-title{
+        max-height: 190px;
+    }
+  .location_des {
+    background: #fff;
+    left: 25%;
+    padding: 30px 30px 0px;
+    position: absolute;
+    top: 50%;
+    width: 30%;
+  }
+}

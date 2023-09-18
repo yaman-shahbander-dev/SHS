@@ -1,0 +1,4 @@
+[27-Sep-2020 12:12:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/adminuser/public_html/karshah.ae/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/app/Console/Kernel.php on line 8

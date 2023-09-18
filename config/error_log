@@ -1,0 +1,160 @@
+[27-Sep-2020 12:12:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/app.php on line 18
+[27-Sep-2020 12:12:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/broadcasting.php on line 18
+[27-Sep-2020 12:12:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/cache.php on line 18
+[27-Sep-2020 12:12:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/database.php on line 16
+[27-Sep-2020 12:12:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/datatables.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/datatables.php on line 73
+[27-Sep-2020 12:12:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/adminuser/public_html/karshah.ae/config/dompdf.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/dompdf.php on line 41
+[27-Sep-2020 12:12:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/filesystems.php on line 16
+[27-Sep-2020 12:12:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/hashing.php on line 32
+[27-Sep-2020 12:12:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Validation\Rule' not found in /home/adminuser/public_html/karshah.ae/config/installer.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/installer.php on line 80
+[27-Sep-2020 12:12:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/logging.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/logging.php on line 18
+[27-Sep-2020 12:12:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/mail.php on line 19
+[27-Sep-2020 12:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/medialibrary.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/medialibrary.php on line 32
+[27-Sep-2020 12:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/paypal.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/paypal.php on line 8
+[27-Sep-2020 12:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/queue.php on line 16
+[27-Sep-2020 12:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/adminuser/public_html/karshah.ae/config/repository.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/repository.php on line 230
+[27-Sep-2020 12:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/services.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/services.php on line 26
+[27-Sep-2020 12:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/session.php on line 19
+[27-Sep-2020 12:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/adminuser/public_html/karshah.ae/config/settings.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/settings.php on line 26
+[27-Sep-2020 12:12:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Request' not found in /home/adminuser/public_html/karshah.ae/config/trustedproxy.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/trustedproxy.php on line 42
+[27-Sep-2020 12:12:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/adminuser/public_html/karshah.ae/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/view.php on line 17
+[28-Sep-2020 02:50:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/app.php on line 18
+[28-Sep-2020 02:50:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/broadcasting.php on line 18
+[28-Sep-2020 02:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/cache.php on line 18
+[28-Sep-2020 02:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/database.php on line 16
+[28-Sep-2020 02:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/datatables.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/datatables.php on line 73
+[28-Sep-2020 02:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/adminuser/public_html/karshah.ae/config/dompdf.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/dompdf.php on line 41
+[28-Sep-2020 02:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/filesystems.php on line 16
+[28-Sep-2020 02:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/hashing.php on line 32
+[28-Sep-2020 02:50:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Validation\Rule' not found in /home/adminuser/public_html/karshah.ae/config/installer.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/installer.php on line 80
+[28-Sep-2020 02:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/logging.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/logging.php on line 18
+[28-Sep-2020 02:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/mail.php on line 19
+[28-Sep-2020 02:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/medialibrary.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/medialibrary.php on line 32
+[28-Sep-2020 02:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/paypal.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/paypal.php on line 8
+[28-Sep-2020 02:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/queue.php on line 16
+[28-Sep-2020 02:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/adminuser/public_html/karshah.ae/config/repository.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/repository.php on line 230
+[28-Sep-2020 02:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/services.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/services.php on line 26
+[28-Sep-2020 02:50:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adminuser/public_html/karshah.ae/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/session.php on line 19
+[28-Sep-2020 02:50:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/adminuser/public_html/karshah.ae/config/settings.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/settings.php on line 26
+[28-Sep-2020 02:50:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Request' not found in /home/adminuser/public_html/karshah.ae/config/trustedproxy.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/trustedproxy.php on line 42
+[28-Sep-2020 02:50:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/adminuser/public_html/karshah.ae/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/adminuser/public_html/karshah.ae/config/view.php on line 17
